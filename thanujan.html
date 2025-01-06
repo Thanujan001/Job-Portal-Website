@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Portal</title>
+  <link rel="stylesheet" href="thanujan.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">JobPortal</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#jobs">Jobs</a></li>
+        <li><a href="#post-job">Post a Job</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="home">
+      <h1>Welcome to Job Portal</h1>
+      <p>Find your dream job or post job opportunities here.</p>
+    </section>
+
+    <section id="jobs" class="job-listings">
+      <h2>Job Listings</h2>
+      <div class="job-card">
+        <h3>Frontend Developer</h3>
+        <p>Company: Tech Corp</p>
+        <p>Location: Remote</p>
+        <button>Apply Now</button>
+      </div>
+      <div class="job-card">
+        <h3>Backend Engineer</h3>
+        <p>Company: Code Solutions</p>
+        <p>Location: New York</p>
+        <button>Apply Now</button>
+      </div>
+    </section>
+
+    <section id="post-job" class="post-job">
+      <h2>Post a Job</h2>
+      <form class="post-job-form">
+        <input type="text" placeholder="Job Title" required>
+        <input type="text" placeholder="Company Name" required>
+        <input type="text" placeholder="Location" required>
+        <textarea placeholder="Job Description" rows="4" required></textarea>
+        <button type="submit">Submit Job</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 JobPortal. All rights reserved.</p>
+  </footer>
+</body>
+</html>
