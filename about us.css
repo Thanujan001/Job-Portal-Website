@@ -1,0 +1,76 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the Contact Section */
+.contact-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+strong {
+    color: #333;
+}
+
+/* Style for the Contact Information */
+.contact-info p {
+    font-size: 18px;
+    color: #444;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Social Icons Section */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.social-icon:hover {
+    background-color: #0056b3;
+}
+
+.fb-icon {
+    background-color: #3b5998;
+}
+
+.li-icon {
+    background-color: #0e76a8;
+}
